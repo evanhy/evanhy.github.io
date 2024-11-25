@@ -1,0 +1,385 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>如何提效 | EvanSky</title><meta name="author" content="EvanSky"><meta name="copyright" content="EvanSky"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="GitHub copilot GitHub 发布的代码提示工具，知道很贵，但是你别慌   去淘宝直接搜索GitHub学生包 建议：提前注册一个GitHub小号活跃一下（尽量别用自己的GitHub大号，可能会有封号风险）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何提效">
+<meta property="og:url" content="https://note.webhy.cn/posts/41504.html">
+<meta property="og:site_name" content="EvanSky">
+<meta property="og:description" content="GitHub copilot GitHub 发布的代码提示工具，知道很贵，但是你别慌   去淘宝直接搜索GitHub学生包 建议：提前注册一个GitHub小号活跃一下（尽量别用自己的GitHub大号，可能会有封号风险）">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/7b70e950e2ca43768cc3f0c1bb871d15.jpg">
+<meta property="article:published_time" content="2023-10-12T04:30:24.000Z">
+<meta property="article:modified_time" content="2024-11-25T02:25:18.065Z">
+<meta property="article:author" content="EvanSky">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/7b70e950e2ca43768cc3f0c1bb871d15.jpg"><link rel="shortcut icon" href="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/钢铁侠.png?x-oss-process=style/huyu"><link rel="canonical" href="https://note.webhy.cn/posts/41504.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":100,"position":"top","messagePrev":"距离上次更新已经过去了","messageNext":"天，信息可能已经有所变动，请注意甄别!!!"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":280},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体中文","cht_to_chs":"你已切换为简体中文","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '如何提效',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-11-25 10:25:18'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.1.1"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/20230223150133.png?x-oss-process=style/huyu" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">54</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">26</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-solid fa-screwdriver-wrench"></i><span> 工具</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tools/learn/"><i class="fa-fw fas fa-graduation-cap"></i><span> 工具</span></a></li><li><a class="site-page child" href="/tools/Website/"><i class="fa-fw fas fa-file"></i><span> 文档</span></a></li><li><a class="site-page child" href="/tools/templates/"><i class="fa-fw fas fa-code"></i><span> 模板</span></a></li><li><a class="site-page child" href="/tools/plugs/"><i class="fa-fw fas fa-cube"></i><span> 插件</span></a></li><li><a class="site-page child" href="/tools/vpn/"><i class="fa-fw fas fa-water-ladder"></i><span> VPN</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-message"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> Love</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/love/"><i class="fa-fw fas fa-heart"></i><span> Love</span></a></li><li><a class="site-page child" href="/love/recipes/"><i class="fa-fw fas fa-utensils"></i><span> 菜谱</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/7b70e950e2ca43768cc3f0c1bb871d15.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="EvanSky"><span class="site-name">EvanSky</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-solid fa-screwdriver-wrench"></i><span> 工具</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tools/learn/"><i class="fa-fw fas fa-graduation-cap"></i><span> 工具</span></a></li><li><a class="site-page child" href="/tools/Website/"><i class="fa-fw fas fa-file"></i><span> 文档</span></a></li><li><a class="site-page child" href="/tools/templates/"><i class="fa-fw fas fa-code"></i><span> 模板</span></a></li><li><a class="site-page child" href="/tools/plugs/"><i class="fa-fw fas fa-cube"></i><span> 插件</span></a></li><li><a class="site-page child" href="/tools/vpn/"><i class="fa-fw fas fa-water-ladder"></i><span> VPN</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-message"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> Love</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/love/"><i class="fa-fw fas fa-heart"></i><span> Love</span></a></li><li><a class="site-page child" href="/love/recipes/"><i class="fa-fw fas fa-utensils"></i><span> 菜谱</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">如何提效</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-10-12T04:30:24.000Z" title="发表于 2023-10-12 12:30:24">2023-10-12</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-25T02:25:18.065Z" title="更新于 2024-11-25 10:25:18">2024-11-25</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="如何提效"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h3 id="GitHub-copilot"><a href="#GitHub-copilot" class="headerlink" title="GitHub copilot"></a>GitHub copilot</h3><blockquote>
+<p>GitHub 发布的代码提示工具，知道很贵，但是你别慌</p>
+</blockquote>
+<ul>
+<li>去<strong>淘宝</strong>直接搜索<strong>GitHub学生包</strong><ul>
+<li>建议：提前注册一个GitHub小号活跃一下（尽量别用自己的GitHub大号，可能会有封号风险）</li>
+<li>GitHub学生包淘宝购买也就二三十块钱，可以使用一两年</li>
+<li>使用流程淘宝客服会说明白</li>
+</ul>
+</li>
+</ul>
+<h4 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h4><blockquote>
+<p>会根据上下文进行代码提示编写</p>
+</blockquote>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331092357227.png" alt="image-20230331092357227" style="zoom:33%;" /></p>
+<blockquote>
+<p>插播插播 &gt;&gt;&gt; 小tip</p>
+<ul>
+<li>写注释的时候，可以用 <code>q:</code>开启<strong>问答模式</strong></li>
+</ul>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331092607593.png" alt="image-20230331092607593" style="zoom:50%;" /></p>
+</blockquote>
+<h3 id="ChatGPT"><a href="#ChatGPT" class="headerlink" title="ChatGPT"></a>ChatGPT</h3><blockquote>
+<p>现在ChatGPT这么🔥，我真的不允许有人不知道好吧，任何人不知道我都会伤心的</p>
+</blockquote>
+<h4 id="注册流程"><a href="#注册流程" class="headerlink" title="注册流程"></a>注册流程</h4><blockquote>
+<p><a href="https://note.webhy.cn/posts/64859.html">https://note.webhy.cn/posts/64859.html</a><br>之前就写过很详细的教程</p>
+<p><strong>不注册可以使用吗</strong></p>
+<p>当然可以</p>
+<p>免费好用的ChatGPT镜像网站：<a target="_blank" rel="noopener" href="https://cc.ai55.cc/">https://cc.ai55.cc/</a></p>
+</blockquote>
+<h4 id="使用-1"><a href="#使用-1" class="headerlink" title="使用"></a>使用</h4><h5 id="可以直接描述，让ChatGPT给你写代码"><a href="#可以直接描述，让ChatGPT给你写代码" class="headerlink" title="可以直接描述，让ChatGPT给你写代码"></a>可以直接描述，让ChatGPT给你写代码</h5><blockquote>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331093349741.png" alt="image-20230331093349741" style="zoom:50%;" /></p>
+</blockquote>
+<h5 id="可以帮你修改-优化代码-修改Bug"><a href="#可以帮你修改-优化代码-修改Bug" class="headerlink" title="可以帮你修改/优化代码/修改Bug"></a>可以帮你修改/优化代码/修改Bug</h5><blockquote>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331093617981.png" alt="image-20230331093617981" style="zoom:50%;" /></p>
+</blockquote>
+<h5 id="帮你写注释"><a href="#帮你写注释" class="headerlink" title="帮你写注释"></a>帮你写注释</h5><blockquote>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331093822630.png" alt="image-20230331093822630" style="zoom:50%;" /></p>
+<p>cool！</p>
+<p>当然，ChatGPT的强大不止如此，还有很多强大的功能都可以自己去进行摸索</p>
+</blockquote>
+<h4 id="ChatGPT一些好用的网站推荐"><a href="#ChatGPT一些好用的网站推荐" class="headerlink" title="ChatGPT一些好用的网站推荐"></a>ChatGPT一些好用的网站推荐</h4><ul>
+<li><a target="_blank" rel="noopener" href="https://cc.ai55.cc/">免费的ChatGPT镜像站</a></li>
+<li><a target="_blank" rel="noopener" href="https://chatguide.plexpt.com/">ChatGPT 中文调教指南⭐️</a></li>
+<li><a target="_blank" rel="noopener" href="https://gpt.candobear.com/">ChatGPT学习宝典</a></li>
+<li><a target="_blank" rel="noopener" href="https://pingchn.notion.site/Open-AI-bd2cde9ad1a94ba182d36ae4afbf45d6">基于 Open AI 产品的一些相关整理</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.explainthis.io/zh-hans/chatgpt">ChatGPT 指令大全</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.explainthis.io/zh-hans/tools">AI 求职工具</a></li>
+<li><a target="_blank" rel="noopener" href="https://nujuo8y1qx.feishu.cn/docx/AdqEdlT52oBiawx6Vv2cc89DnLb">ChatGPT学习手册</a></li>
+<li><a target="_blank" rel="noopener" href="https://ai.newzone.top/?tags=code">让生产力加倍的 ChatGPT 快捷指令</a></li>
+</ul>
+<blockquote>
+<p>ChatGPT的强大毋庸置疑，但是你不用慌，也<strong>不要担忧</strong>，ChatGPT不会取代你的工作，如果在美国、日本…这些发达国家你会有这样的担忧。但是！这里是中国，不必担心这些。<br><strong>现在能做的，及时利用ChatGPT的强大武装自己，尽量能给自己带来更多的价值就是最好的</strong></p>
+</blockquote>
+<h3 id="善用搜索"><a href="#善用搜索" class="headerlink" title="善用搜索"></a>善用搜索</h3><h4 id="搜索推荐"><a href="#搜索推荐" class="headerlink" title="搜索推荐"></a>搜索推荐</h4><ul>
+<li>推荐<code>Google搜索</code></li>
+</ul>
+<blockquote>
+<p>Google搜索比百度搜索的内容质量要高得多，而且百度已经被广告席卷了</p>
+<p>Google搜索也推荐使用下面的插件</p>
+</blockquote>
+<ul>
+<li><p>论坛搜索</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://juejin.cn/">掘金⭐️</a></li>
+<li><a target="_blank" rel="noopener" href="https://stackoverflow.com/">stackoverflow</a></li>
+</ul>
+<blockquote>
+<p>论坛呢，我其实不推荐<code>CSDN</code>，不是CSDN不行，而是CSDN的内容水文实在是太多了，质量其实普遍不高</p>
+<p><code>掘金</code>是我很喜欢的一个论坛，里面的内容质量还是比较高的，很多推荐的内容都可以学到很多东西</p>
+<p><code>stackoverflow</code>是很强大的，但是考虑网站是纯英文，可能不太友好，但是不可否认的强大</p>
+<ul>
+<li>以下列举其他的一些国内论坛</li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/techareas/frontend">简书</a></li>
+<li><a target="_blank" rel="noopener" href="https://segmentfault.com/channel/frontend">思否</a></li>
+<li><a target="_blank" rel="noopener" href="https://v2ex.com/">V2EX</a></li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>ChatGPT搜索</code></p>
+</li>
+</ul>
+<blockquote>
+<p>只要能访问ChatGPT，遇到问题不妨可以问问ChatGPT？</p>
+</blockquote>
+<h3 id="浏览器插件推荐"><a href="#浏览器插件推荐" class="headerlink" title="浏览器插件推荐"></a>浏览器插件推荐</h3><blockquote>
+<p>考虑你们有些人不会科学上网，<a target="_blank" rel="noopener" href="https://chrome.zzzmh.cn/#/index">极简插件</a>，这个网站可以无需翻墙下载Google插件</p>
+</blockquote>
+<h4 id="搜索去除广告"><a href="#搜索去除广告" class="headerlink" title="搜索去除广告"></a>搜索去除广告</h4><blockquote>
+<p>百度搜索、Google搜索出来的东西都是驴头不对马嘴？</p>
+<p>不用担心，插件可以帮你解决这个问题</p>
+</blockquote>
+<p>1.打开链接下载<strong>Tampermonkey</strong></p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://chrome.zzzmh.cn/info/dhdgffkkebhmkfjojejmpbldmpobfkfo">https://chrome.zzzmh.cn/info/dhdgffkkebhmkfjojejmpbldmpobfkfo</a><br><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331100836269.png" alt="image-20230331100836269" style="zoom: 33%;" /></p>
+</blockquote>
+<p>2.下载好之后的操作</p>
+<blockquote>
+<ul>
+<li>解压压缩包</li>
+</ul>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331101045428.png" alt="image-20230331101045428" style="zoom:50%;" /></p>
+<ul>
+<li>进入<strong>Google浏览器</strong>的<strong>扩展插件</strong>管理页面</li>
+</ul>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331101213838.png" alt="image-20230331101213838" style="zoom:50%;" /></p>
+<ul>
+<li>打开右上角的<strong>开发者模式</strong></li>
+</ul>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331101418584.png" alt="image-20230331101418584"></p>
+<ul>
+<li>把上面解压的后缀<code>crx</code>文件拖进去</li>
+</ul>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331101709668.png" alt="image-20230331101709668" style="zoom:50%;" /></p>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331101814024.png" alt="image-20230331101814024" style="zoom:50%;" /></p>
+<ul>
+<li>安装成功了！</li>
+</ul>
+</blockquote>
+<p>3.安装好<code>tampermonkey</code>后的操作</p>
+<blockquote>
+<ul>
+<li>进入网站安装脚本<ul>
+<li><a target="_blank" rel="noopener" href="https://greasyfork.org/zh-CN/scripts/14178-ac-baidu-%E9%87%8D%E5%AE%9A%E5%90%91%E4%BC%98%E5%8C%96%E7%99%BE%E5%BA%A6%E6%90%9C%E7%8B%97%E8%B0%B7%E6%AD%8C%E5%BF%85%E5%BA%94%E6%90%9C%E7%B4%A2-favicon-%E5%8F%8C%E5%88%97">https://greasyfork.org/zh-CN/scripts/14178-ac-baidu-%E9%87%8D%E5%AE%9A%E5%90%91%E4%BC%98%E5%8C%96%E7%99%BE%E5%BA%A6%E6%90%9C%E7%8B%97%E8%B0%B7%E6%AD%8C%E5%BF%85%E5%BA%94%E6%90%9C%E7%B4%A2-favicon-%E5%8F%8C%E5%88%97</a></li>
+<li><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331102139218.png" alt="image-20230331102139218" style="zoom: 33%;" /></li>
+</ul>
+</li>
+<li>安装完脚本之后的设置<ul>
+<li>百度搜索设置<ul>
+<li><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331102456458.png" alt="image-20230331102456458" style="zoom: 33%;" /></li>
+</ul>
+</li>
+<li>Google搜索设置<ul>
+<li><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331102626659.png" alt="image-20230331102626659" style="zoom:33%;" /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>安装设置好之后，你就会体验跟之前不一样的搜索体验</strong></p>
+</blockquote>
+<h4 id="掘金插件"><a href="#掘金插件" class="headerlink" title="掘金插件"></a>掘金插件</h4><blockquote>
+<p><a target="_blank" rel="noopener" href="https://juejin.cn/extension?utm_source=jj_nav">https://juejin.cn/extension?utm_source=jj_nav</a><br>掘金官网插件，也已经提供了很详细的安装教程，我这边就不一步一步的安装演示了</p>
+<p>安装完直接替换掉浏览器的<code>主页</code>,看效果：</p>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331103850983.png" alt="image-20230331103850983"></p>
+</blockquote>
+<h4 id="翻译软件推荐"><a href="#翻译软件推荐" class="headerlink" title="翻译软件推荐"></a>翻译软件推荐</h4><ul>
+<li><p>使用最多的还是Google浏览器自带的<code>翻译</code></p>
+</li>
+<li><p><strong>沙拉查词⭐️</strong></p>
+<blockquote>
+<p>沙拉查词也是不错的翻译插件，支持划词翻译、全文翻译（有免费次数限制）</p>
+<p>不可翻墙用户下载：<a target="_blank" rel="noopener" href="https://chrome.zzzmh.cn/info/cdonnmffkdaoajfknoeeecmchibpmkmg">https://chrome.zzzmh.cn/info/cdonnmffkdaoajfknoeeecmchibpmkmg</a></p>
+<p>可以翻墙用户：直接Google扩展商店搜索<code>沙拉查词</code></p>
+</blockquote>
+</li>
+<li><p>沉浸式翻译</p>
+<blockquote>
+<p>双语显示</p>
+<p>Google扩展商店搜索<code>沉浸式翻译</code></p>
+</blockquote>
+</li>
+</ul>
+<h4 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h4><blockquote>
+<p>Vue的浏览器调试工具，不解释，必备软甲</p>
+</blockquote>
+<h3 id="软件推荐"><a href="#软件推荐" class="headerlink" title="软件推荐"></a>软件推荐</h3><h4 id="utools⭐️"><a href="#utools⭐️" class="headerlink" title="utools⭐️"></a>utools⭐️</h4><blockquote>
+<p>属于我现在的必装软件</p>
+<p>当然，也有插件推荐</p>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331104626439.png" alt="image-20230331104626439" style="zoom:33%;" /></p>
+<ul>
+<li><p>JavaScript文档</p>
+<ul>
+<li><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331110025492.png" alt="image-20230331110025492" style="zoom:25%;" /></li>
+<li>直接调出<code>utool</code>然后输入<code>js</code></li>
+<li><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331104743543.png" alt="image-20230331104743543" style="zoom:33%;" /></li>
+<li>就可以快读查阅js文档（直接搜索关键词就行：例如直接搜索<code>for</code>）</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>易翻翻译 &gt;&gt;&gt; 五星推荐⭐️⭐️⭐️⭐️⭐️</p>
+<ul>
+<li><p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331110053340.png" alt="image-20230331110053340" style="zoom:25%;" /></p>
+</li>
+<li><p>翻译功能</p>
+<ul>
+<li>直接输入中文/英文，回车就可以翻译</li>
+</ul>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331105003823.png" alt="image-20230331105003823" style="zoom:50%;" /></p>
+</li>
+<li><p>命名功能</p>
+<ul>
+<li>可以进行驼峰翻译、下划线翻译、常量翻译<ul>
+<li>缩写：小驼峰(xt)、大驼峰(dt)、下划线(xh)、常量翻译(cl)</li>
+</ul>
+</li>
+<li>下面演示小驼峰翻译</li>
+<li>直接调出utool面板，输入<code>xt</code>,然后回车</li>
+</ul>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331105143548.png" alt="image-20230331105143548" style="zoom:33%;" /></p>
+<ul>
+<li>然后输入你要翻译的内容</li>
+</ul>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331105402860.png" alt="image-20230331105402860" style="zoom:33%;" /></p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>JavaScriptRunner</p>
+<ul>
+<li><p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331110128428.png" alt="image-20230331110128428" style="zoom:25%;" /></p>
+</li>
+<li><p>你是不是有这种情况，我想到一个方法，但是我又不知道对不对，我又想试试，好像又不想打开vscode，此时此刻，不用担心，直接安装这个插件</p>
+</li>
+<li><p>使用 &gt;&gt;&gt; 安装好插件 &gt;&gt;&gt; 调出utool &gt;&gt;&gt; 输入<code>js</code></p>
+<ul>
+<li>选择JavaScriptRunner &gt;&gt;&gt; 回车</li>
+</ul>
+<p><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331105741073.png" alt="image-20230331105741073" style="zoom:33%;" /></p>
+<ul>
+<li><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/image-20230331105914188.png" alt="image-20230331105914188" style="zoom:50%;" /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://note.webhy.cn">EvanSky</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://note.webhy.cn/posts/41504.html">https://note.webhy.cn/posts/41504.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://note.webhy.cn" target="_blank">EvanSky</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/7b70e950e2ca43768cc3f0c1bb871d15.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/9496.html" title="glob文件匹配规则"><img class="cover" src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/20231102175408.png" onerror="onerror=null;src='/img/404loading.gif'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">glob文件匹配规则</div></div></a></div><div class="next-post pull-right"><a href="/posts/61913.html" title="postMessage"><img class="cover" src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/202307171539537.png" onerror="onerror=null;src='/img/404loading.gif'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">postMessage</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://huyu-blog.oss-cn-hangzhou.aliyuncs.com/img/20230223150133.png?x-oss-process=style/huyu" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">EvanSky</div><div class="author-info__description">今天你学习了吗</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">54</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">26</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/evanhy" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#GitHub-copilot"><span class="toc-number">1.</span> <span class="toc-text">GitHub copilot</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.</span> <span class="toc-text">使用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ChatGPT"><span class="toc-number">2.</span> <span class="toc-text">ChatGPT</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B"><span class="toc-number">2.1.</span> <span class="toc-text">注册流程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8-1"><span class="toc-number">2.2.</span> <span class="toc-text">使用</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E6%8F%8F%E8%BF%B0%EF%BC%8C%E8%AE%A9ChatGPT%E7%BB%99%E4%BD%A0%E5%86%99%E4%BB%A3%E7%A0%81"><span class="toc-number">2.2.1.</span> <span class="toc-text">可以直接描述，让ChatGPT给你写代码</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%8F%AF%E4%BB%A5%E5%B8%AE%E4%BD%A0%E4%BF%AE%E6%94%B9-%E4%BC%98%E5%8C%96%E4%BB%A3%E7%A0%81-%E4%BF%AE%E6%94%B9Bug"><span class="toc-number">2.2.2.</span> <span class="toc-text">可以帮你修改&#x2F;优化代码&#x2F;修改Bug</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B8%AE%E4%BD%A0%E5%86%99%E6%B3%A8%E9%87%8A"><span class="toc-number">2.2.3.</span> <span class="toc-text">帮你写注释</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ChatGPT%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90"><span class="toc-number">2.3.</span> <span class="toc-text">ChatGPT一些好用的网站推荐</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%96%84%E7%94%A8%E6%90%9C%E7%B4%A2"><span class="toc-number">3.</span> <span class="toc-text">善用搜索</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2%E6%8E%A8%E8%8D%90"><span class="toc-number">3.1.</span> <span class="toc-text">搜索推荐</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90"><span class="toc-number">4.</span> <span class="toc-text">浏览器插件推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2%E5%8E%BB%E9%99%A4%E5%B9%BF%E5%91%8A"><span class="toc-number">4.1.</span> <span class="toc-text">搜索去除广告</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8E%98%E9%87%91%E6%8F%92%E4%BB%B6"><span class="toc-number">4.2.</span> <span class="toc-text">掘金插件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BF%BB%E8%AF%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90"><span class="toc-number">4.3.</span> <span class="toc-text">翻译软件推荐</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Vue"><span class="toc-number">4.4.</span> <span class="toc-text">Vue</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90"><span class="toc-number">5.</span> <span class="toc-text">软件推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#utools%E2%AD%90%EF%B8%8F"><span class="toc-number">5.1.</span> <span class="toc-text">utools⭐️</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background: transparent"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By EvanSky</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script async src="//at.alicdn.com/t/font_2264842_3izu8i5eoc2.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><!-- hexo injector body_end start --><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><!-- hexo injector body_end end --></body></html>
